@@ -1,0 +1,14 @@
+node_modules
+out
+out.zip
+dist
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+yarn-error.log

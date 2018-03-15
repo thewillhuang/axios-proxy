@@ -1,0 +1,21 @@
+{
+  "name": "axios-proxy",
+  "profile": "default",
+  "lambda": {
+    "memory": 128,
+    "accelerate": true
+  },
+  "hooks": {
+    "build": "yarn build"
+  },
+  "proxy": {
+    "command": "PORT=$PORT NODE_ENV=production node dist/main"
+  },
+  "stages": {
+    "development": {
+      "proxy": {
+        "command": "PORT=$PORT NODE_ENV=production node dist/main"
+      }
+    }
+  }
+}
