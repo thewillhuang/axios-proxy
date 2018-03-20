@@ -2,8 +2,7 @@
   "name": "axios-proxy",
   "profile": "default",
   "lambda": {
-    "memory": 128,
-    "accelerate": true
+    "memory": 128
   },
   "hooks": {
     "build": "yarn build"

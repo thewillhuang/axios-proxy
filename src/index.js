@@ -18,7 +18,7 @@ app.use(async (ctx) => {
     ctx.status = 200;
     ctx.body = 'alive';
   } else {
-    const { data} = await request(body);
+    const { data } = await request(body);
     ctx.body = data;
   }
 });

@@ -60,3 +60,4 @@ LICENCE.APACHE2
 *.jsx
 *.flow
 !index.d.ts
+.yarn-integrity

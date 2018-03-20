@@ -3,3 +3,4 @@
 !node_modules/**
 *.ts
 *.flow
+*.yarn-integrity

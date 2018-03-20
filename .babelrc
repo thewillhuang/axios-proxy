@@ -11,11 +11,6 @@
     "ramda",
     "lodash",
     "transform-async-to-bluebird",
-    "transform-promise-to-bluebird",
-    ["transform-runtime", {
-      "helpers": false,
-      "polyfill": false,
-      "regenerator": true
-    }]
+    "transform-promise-to-bluebird"
   ]
 }
